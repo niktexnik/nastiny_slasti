@@ -4,14 +4,14 @@
 
 // ── Telegram Bot config ──
 const BOT_TOKEN = "1805801654:AAFzamsFKtlOqXB5KkFHuBa-ekxnSdaLxa0";
-const CHAT_ID   = "739889656";
+const CHAT_ID = "739889656";
 
 // ── Gallery labels ──
 const GALLERY_LABELS = [
-  'Авторский торт','Цветочный декор','Ягодный торт',
-  'Праздничный торт','Свадебный торт','Детский торт',
-  'Муссовый торт','Торт на заказ','Капкейки','Клубника в шоколаде',
-  'Пирожные','Моти'
+  'Авторский торт', 'Цветочный декор', 'Ягодный торт',
+  'Праздничный торт', 'Свадебный торт', 'Детский торт',
+  'Муссовый торт', 'Торт на заказ', 'Капкейки', 'Клубника в шоколаде',
+  'Пирожные', 'Моти'
 ];
 
 // ── Init on DOMContentLoaded ──
@@ -32,10 +32,10 @@ function initImages() {
   const heroImg = document.getElementById('hero-img');
   if (heroImg) heroImg.src = CAKE_IMAGES[0];
 
-  const slots = ['about-img-1','about-img-2','about-img-3'];
+  const slots = ['about-img-1', 'about-img-2', 'about-img-3'];
   slots.forEach((id, i) => {
     const el = document.getElementById(id);
-    if (el && CAKE_IMAGES[i+1]) el.src = CAKE_IMAGES[i+1];
+    if (el && CAKE_IMAGES[i + 1]) el.src = CAKE_IMAGES[i + 1];
   });
 }
 
@@ -60,8 +60,8 @@ function initGallery() {
 
 // ─── Lightbox ─────────────────────────────────────────
 function initLightbox() {
-  const box   = document.getElementById('lightbox');
-  const img   = document.getElementById('lb-img');
+  const box = document.getElementById('lightbox');
+  const img = document.getElementById('lb-img');
   const close = document.getElementById('lb-close');
   if (!box) return;
 
@@ -125,12 +125,12 @@ function initForm() {
 }
 
 async function handleFormSubmit() {
-  const btn     = document.getElementById('form-submit-btn');
-  const name    = document.getElementById('f-name')?.value.trim();
+  const btn = document.getElementById('form-submit-btn');
+  const name = document.getElementById('f-name')?.value.trim();
   const contact = document.getElementById('f-contact')?.value.trim();
-  const date    = document.getElementById('f-date')?.value;
+  const date = document.getElementById('f-date')?.value;
   const persons = document.getElementById('f-persons')?.value;
-  const city    = document.getElementById('f-city')?.value;
+  const city = document.getElementById('f-city')?.value;
   const message = document.getElementById('f-message')?.value.trim();
 
   // Selected desserts
@@ -144,10 +144,10 @@ async function handleFormSubmit() {
   }
 
   const dessertLine = selected.length ? selected.join(', ') : '(не выбрано)';
-  const cityNames   = { tver: 'Тверь (доставка)', mednoye: 'с. Медное (самовывоз)', other: 'Другой' };
+  const cityNames = { tver: 'Тверь (доставка)', mednoye: 'с. Медное (самовывоз)', other: 'Другой' };
 
   const text = `
-🍰 <b>Новая заявка — Настины Сласти</b>
+🍰 <b>Новая заявка — Настины Сласти</b> 🍰
 
 👤 <b>Имя:</b> ${name}
 📱 <b>Контакт:</b> ${contact}
@@ -189,7 +189,7 @@ ${message || '(без пожеланий)'}
 }
 
 function resetForm() {
-  ['f-name','f-contact','f-date','f-persons','f-message'].forEach(id => {
+  ['f-name', 'f-contact', 'f-date', 'f-persons', 'f-message'].forEach(id => {
     const el = document.getElementById(id);
     if (el) el.value = '';
   });

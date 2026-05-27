@@ -1,361 +1,369 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Настины Сласти — Авторские десерты от Анастасии | Тверь, Медное</title>
-<meta name="description" content="Авторские торты, капкейки, моти, клубника в шоколаде и другие десерты на заказ в Твери и Медном от кондитера Анастасии. Доставка и самовывоз.">
-<meta property="og:title" content="Настины Сласти — Авторские десерты">
-<meta property="og:description" content="Торты, капкейки, моти, клубника в шоколаде — всё с любовью на заказ в Твери и Медном">
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Настины Сласти — Авторские десерты от Анастасии | Тверь, Медное</title>
+  <meta name="description"
+    content="Авторские торты, капкейки, моти, клубника в шоколаде и другие десерты на заказ в Твери и Медном от кондитера Анастасии. Доставка и самовывоз.">
+  <meta property="og:title" content="Настины Сласти — Авторские десерты">
+  <meta property="og:description"
+    content="Торты, капкейки, моти, клубника в шоколаде — всё с любовью на заказ в Твери и Медном">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<!-- ════ NAV ════ -->
-<nav id="navbar">
-  <a class="nav-logo" href="#">Настины <span>Сласти</span></a>
-  <ul class="nav-links" id="nav-links">
-    <li><a href="#menu">Десерты</a></li>
-    <li><a href="#about">О кондитере</a></li>
-    <li><a href="#gallery">Работы</a></li>
-    <li><a href="#delivery">Доставка</a></li>
-    <li><a href="#contact" class="nav-cta">Заказать 🎂</a></li>
-  </ul>
-  <button class="burger" id="burger" aria-label="Открыть меню">
-    <span></span><span></span><span></span>
-  </button>
-</nav>
+  <!-- ════ NAV ════ -->
+  <nav id="navbar">
+    <a class="nav-logo" href="#">Настины <span>Сласти</span></a>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#menu">Десерты</a></li>
+      <li><a href="#about">О кондитере</a></li>
+      <li><a href="#gallery">Работы</a></li>
+      <li><a href="#delivery">Доставка</a></li>
+      <li><a href="#contact" class="nav-cta">Заказать 🎂</a></li>
+    </ul>
+    <button class="burger" id="burger" aria-label="Открыть меню">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
 
 
-<!-- ════ HERO ════ -->
-<section class="hero">
-  <div class="hero-text">
-    <span class="hero-tag">Авторские десерты · Тверь & Медное</span>
-    <h1 class="hero-title">
-      Сладкое,<br>которое<br><em>влюбляет</em>
-    </h1>
-    <p class="hero-desc">
-      Торты, капкейки, моти, клубника в шоколаде и ещё очень много всего вкусного —
-      от кондитера Анастасии. Каждый десерт создаётся вручную, с любовью и только
-      из натуральных ингредиентов.
-    </p>
-    <div class="hero-btns">
-      <a href="#contact" class="btn-primary">🎂 Заказать десерт</a>
-      <a href="#gallery" class="btn-secondary">Посмотреть работы</a>
-    </div>
-  </div>
-  <div class="hero-image">
-    <img id="hero-img" src="" alt="Авторский торт от Анастасии">
-    <div class="hero-badge">
-      <div class="stat-num">200+</div>
-      <div class="stat-label">счастливых<br>клиентов</div>
-    </div>
-  </div>
-</section>
-
-
-<!-- ════ MENU / CATALOGUE ════ -->
-<section class="menu" id="menu">
-  <div class="menu-header fade-in">
-    <span class="section-tag">Ассортимент</span>
-    <h2 class="section-title">Что <em>делаем</em></h2>
-  </div>
-  <div class="menu-grid">
-    <div class="menu-card fade-in">
-      <span class="emoji">🎂</span>
-      <h3>Торты</h3>
-      <p>Свадебные, праздничные, детские, муссовые, велюровые — любой формы и вкуса. Полностью под ваши пожелания.</p>
-    </div>
-    <div class="menu-card fade-in delay-1">
-      <span class="emoji">🧁</span>
-      <h3>Капкейки</h3>
-      <p>Нежные кексы с воздушным кремом — идеально для вечеринок, свадеб и сладких столов. Можно с топперами.</p>
-    </div>
-    <div class="menu-card fade-in delay-2">
-      <span class="emoji">🍓</span>
-      <h3>Клубника в шоколаде</h3>
-      <p>Свежая клубника в бельгийском шоколаде с декором — вкуснейший подарок и украшение любого стола.</p>
-    </div>
-    <div class="menu-card fade-in">
-      <span class="emoji">🍡</span>
-      <h3>Моти</h3>
-      <p>Японские рисовые пирожные с нежной начинкой. Мягкие, воздушные, с разными вкусами — не оторваться!</p>
-    </div>
-    <div class="menu-card fade-in delay-1">
-      <span class="emoji">🧀</span>
-      <h3>Сырки</h3>
-      <p>Творожные сырки по классическому рецепту и не только!</p>
-    </div>
-    <div class="menu-card fade-in delay-2">
-      <span class="emoji">🥔</span>
-      <h3>Пирожное «Картошка»</h3>
-      <p>Классика советской кондитерки в авторском исполнении. Шоколадно, влажно, по-домашнему вкусно.</p>
-    </div>
-    <div class="menu-card fade-in">
-      <span class="emoji">🍮</span>
-      <h3>Пирожные</h3>
-      <p>Эклеры, шу, тарталетки, птифуры — маленькие шедевры для сладкого стола и корпоративных мероприятий.</p>
-    </div>
-    <div class="menu-card fade-in delay-1">
-      <span class="emoji">✨</span>
-      <h3>Особые заказы</h3>
-      <p>Что-то особенное в голове? Расскажите — обсудим и воплотим! Работаю с любыми идеями.</p>
-    </div>
-  </div>
-</section>
-
-
-<!-- ════ ABOUT ════ -->
-<section class="about" id="about">
-  <div class="about-imgs fade-in">
-    <img id="about-img-1" src="" alt="Работа Анастасии">
-    <img id="about-img-2" src="" alt="Работа Анастасии">
-    <img id="about-img-3" src="" alt="Работа Анастасии">
-  </div>
-  <div class="about-text fade-in delay-1">
-    <span class="section-tag">О кондитере</span>
-    <h2 class="section-title">Привет, я <em>Анастасия</em></h2>
-    <p>
-      Я кондитер из Медного — влюблённая в своё дело и счастливая делать людей счастливее
-      через вкус. Начинала с простых рецептов, а теперь создаю торты, которые
-      становятся центром самых важных событий в жизни моих клиентов.
-    </p>
-    <p>
-      Работаю только с натуральными ингредиентами — без красителей, ароматизаторов
-      и консервантов. Каждый торт, каждый капкейк, каждое пирожное — это ручная работа
-      и огромная любовь к профессии.
-    </p>
-    <p>
-      Принимаю заказы в Твери и Медном. Буду рада воплотить вашу идею — от скромного
-      семейного торта до грандиозного свадебного шедевра!
-    </p>
-    <div class="about-facts">
-      <div>
-        <div class="fact-num">200+</div>
-        <div class="fact-label">десертов создано</div>
-      </div>
-      <div>
-        <div class="fact-num">5★</div>
-        <div class="fact-label">средний отзыв</div>
-      </div>
-      <div>
-        <div class="fact-num">8+</div>
-        <div class="fact-label">видов десертов</div>
+  <!-- ════ HERO ════ -->
+  <section class="hero">
+    <div class="hero-text">
+      <span class="hero-tag">Авторские десерты · Тверь & Медное</span>
+      <h1 class="hero-title">
+        Сладкое,<br>которое<br><em>влюбляет</em>
+      </h1>
+      <p class="hero-desc">
+        Торты, капкейки, моти, клубника в шоколаде и ещё очень много всего вкусного —
+        от кондитера Анастасии. Каждый десерт создаётся вручную, с любовью и только
+        из натуральных ингредиентов.
+      </p>
+      <div class="hero-btns">
+        <a href="#contact" class="btn-primary">🎂 Заказать десерт</a>
+        <a href="#gallery" class="btn-secondary">Посмотреть работы</a>
       </div>
     </div>
-  </div>
-</section>
-
-
-<!-- ════ GALLERY ════ -->
-<section class="gallery" id="gallery">
-  <div class="gallery-header fade-in">
-    <div>
-      <span class="section-tag">Портфолио</span>
-      <h2 class="section-title">Мои <em>работы</em></h2>
+    <div class="hero-image">
+      <img id="hero-img" src="" alt="Авторский торт от Анастасии">
+      <div class="hero-badge">
+        <div class="stat-num">200+</div>
+        <div class="stat-label">счастливых<br>клиентов</div>
+      </div>
     </div>
-    <a href="https://vk.ru/club228348648" target="_blank" class="btn-secondary">Все работы в ВК →</a>
-  </div>
-  <div class="gallery-grid" id="gallery-grid"></div>
-</section>
-
-<!-- LIGHTBOX -->
-<div class="lightbox" id="lightbox">
-  <button class="lightbox-close" id="lb-close" aria-label="Закрыть">✕</button>
-  <img id="lb-img" src="" alt="Просмотр фото">
-</div>
+  </section>
 
 
-<!-- ════ DELIVERY ════ -->
-<section class="delivery" id="delivery">
-  <div class="fade-in">
-    <span class="section-tag">Доставка и самовывоз</span>
-    <h2 class="section-title">Привезём<br><em>или заберёте</em></h2>
-    <div class="delivery-options">
-      <div class="delivery-card">
-        <div class="d-icon">🚗</div>
+  <!-- ════ MENU / CATALOGUE ════ -->
+  <section class="menu" id="menu">
+    <div class="menu-header fade-in">
+      <span class="section-tag">Ассортимент</span>
+      <h2 class="section-title">Что <em>делаем</em></h2>
+    </div>
+    <div class="menu-grid">
+      <div class="menu-card fade-in">
+        <span class="emoji">🎂</span>
+        <h3>Торты</h3>
+        <p>Свадебные, праздничные, детские, муссовые, велюровые — любой формы и вкуса. Полностью под ваши пожелания.</p>
+      </div>
+      <div class="menu-card fade-in delay-1">
+        <span class="emoji">🧁</span>
+        <h3>Капкейки</h3>
+        <p>Нежные кексы с воздушным кремом — идеально для вечеринок, свадеб и сладких столов. Можно с топперами.</p>
+      </div>
+      <div class="menu-card fade-in delay-2">
+        <span class="emoji">🍓</span>
+        <h3>Клубника в шоколаде</h3>
+        <p>Свежая клубника в бельгийском шоколаде с декором — вкуснейший подарок и украшение любого стола.</p>
+      </div>
+      <div class="menu-card fade-in">
+        <span class="emoji">🍡</span>
+        <h3>Моти</h3>
+        <p>Японские рисовые пирожные с нежной начинкой. Мягкие, воздушные, с разными вкусами — не оторваться!</p>
+      </div>
+      <div class="menu-card fade-in delay-1">
+        <span class="emoji">🍞</span>
+        <h3>Сырки</h3>
+        <p>Творожные сырки по классическому рецепту и не только!</p>
+      </div>
+      <div class="menu-card fade-in delay-2">
+        <span class="emoji">🥔</span>
+        <h3>Пирожное «Картошка»</h3>
+        <p>Классика советской кондитерки в авторском исполнении. Шоколадно, влажно, по-домашнему вкусно.</p>
+      </div>
+      <div class="menu-card fade-in">
+        <span class="emoji">🍮</span>
+        <h3>Пирожные</h3>
+        <p>Эклеры, шу, тарталетки, птифуры — маленькие шедевры для сладкого стола и корпоративных мероприятий.</p>
+      </div>
+      <div class="menu-card fade-in delay-1">
+        <span class="emoji">✨</span>
+        <h3>Особые заказы</h3>
+        <p>Что-то особенное в голове? Расскажите — обсудим и воплотим! Работаю с любыми идеями.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ════ ABOUT ════ -->
+  <section class="about" id="about">
+    <div class="about-imgs fade-in">
+      <img id="about-img-1" src="" alt="Работа Анастасии">
+      <img id="about-img-2" src="" alt="Работа Анастасии">
+      <img id="about-img-3" src="" alt="Работа Анастасии">
+    </div>
+    <div class="about-text fade-in delay-1">
+      <span class="section-tag">О кондитере</span>
+      <h2 class="section-title">Привет, я <em>Анастасия</em></h2>
+      <p>
+        Я кондитер из Медного — влюблённая в своё дело и счастливая делать людей счастливее
+        через вкус. Начинала с простых рецептов, а теперь создаю торты, которые
+        становятся центром самых важных событий в жизни моих клиентов.
+      </p>
+      <p>
+        Работаю только с натуральными ингредиентами — без красителей, ароматизаторов
+        и консервантов. Каждый торт, каждый капкейк, каждое пирожное — это ручная работа
+        и огромная любовь к профессии.
+      </p>
+      <p>
+        Принимаю заказы в Твери и Медном. Буду рада воплотить вашу идею — от скромного
+        семейного торта до грандиозного свадебного шедевра!
+      </p>
+      <div class="about-facts">
         <div>
-          <h4>Доставка по Твери</h4>
-          <p>Доставляем заказы по всему городу Тверь. Стоимость и время доставки обсуждаем при оформлении заказа. Торт приедет в специальной упаковке — доедет идеально!</p>
+          <div class="fact-num">200+</div>
+          <div class="fact-label">десертов создано</div>
         </div>
-      </div>
-      <div class="delivery-card">
-        <div class="d-icon">🏡</div>
         <div>
-          <h4>Самовывоз — с. Медное</h4>
-          <p>
-            Забрать заказ можно лично по адресу:<br>
-            <a href="https://yandex.ru/maps/?ll=35.8547,56.9397&z=16" target="_blank">
-              📍 с. Медное, ул. МСШИ
-            </a><br>
-            Удобно договориться о времени при заказе.
-          </p>
+          <div class="fact-num">5★</div>
+          <div class="fact-label">средний отзыв</div>
         </div>
-      </div>
-      <div class="delivery-card">
-        <div class="d-icon">📦</div>
         <div>
-          <h4>Упаковка и сохранность</h4>
-          <p>Каждый десерт упаковывается профессионально. Даём рекомендации по хранению — торт простоит в идеальном виде до момента подачи на стол.</p>
+          <div class="fact-num">8+</div>
+          <div class="fact-label">видов десертов</div>
         </div>
       </div>
     </div>
+  </section>
+
+
+  <!-- ════ GALLERY ════ -->
+  <section class="gallery" id="gallery">
+    <div class="gallery-header fade-in">
+      <div>
+        <span class="section-tag">Портфолио</span>
+        <h2 class="section-title">Мои <em>работы</em></h2>
+      </div>
+      <a href="https://vk.ru/club228348648" target="_blank" class="btn-secondary">Все работы в ВК →</a>
+    </div>
+    <div class="gallery-grid" id="gallery-grid"></div>
+  </section>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lb-close" aria-label="Закрыть">✕</button>
+    <img id="lb-img" src="" alt="Просмотр фото">
   </div>
-  <div class="fade-in delay-1">
-    <div class="map-box">
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2234.5!2d35.8547!3d56.9397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTbCsDU2JzE5LjAiTiAzNcKwNTEnMTcuMCJF!5e0!3m2!1sru!2sru!4v1"
-        allowfullscreen=""
-        loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"
-        title="Карта — с. Медное, ул. МСШИ д.1">
-      </iframe>
-      <div class="map-address">
-        <strong>📍 Самовывоз: с. Медное, ул. МСШИ</strong>
-        Время самовывоза — по договорённости. Напишите в Telegram, согласуем удобное время!
+
+
+  <!-- ════ DELIVERY ════ -->
+  <section class="delivery" id="delivery">
+    <div class="fade-in">
+      <span class="section-tag">Доставка и самовывоз</span>
+      <h2 class="section-title">Привезём<br><em>или заберёте</em></h2>
+      <div class="delivery-options">
+        <div class="delivery-card">
+          <div class="d-icon">🚗</div>
+          <div>
+            <h4>Доставка по Твери</h4>
+            <p>Доставляем заказы по всему городу Тверь. Стоимость и время доставки обсуждаем при оформлении заказа. Торт
+              приедет в специальной упаковке — доедет идеально!</p>
+          </div>
+        </div>
+        <div class="delivery-card">
+          <div class="d-icon">🏡</div>
+          <div>
+            <h4>Самовывоз — с. Медное</h4>
+            <p>
+              Забрать заказ можно лично по адресу:<br>
+              <a href="https://yandex.ru/maps/?ll=35.8547,56.9397&z=16" target="_blank">
+                📍 с. Медное, ул. МСШИ
+              </a><br>
+              Удобно договориться о времени при заказе.
+            </p>
+          </div>
+        </div>
+        <div class="delivery-card">
+          <div class="d-icon">📦</div>
+          <div>
+            <h4>Упаковка и сохранность</h4>
+            <p>Каждый десерт упаковывается профессионально. Даём рекомендации по хранению — торт простоит в идеальном
+              виде до момента подачи на стол.</p>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</section>
-
-
-<!-- ════ PROCESS ════ -->
-<section class="process" id="process">
-  <div class="fade-in">
-    <span class="section-tag">Как мы работаем</span>
-    <h2 class="section-title">От <em>идеи</em> до стола</h2>
-  </div>
-  <div class="process-steps">
-    <div class="process-step fade-in" data-num="01">
-      <h3>Обсуждение</h3>
-      <p>Пишите в Telegram, ВКонтакте или MAX. Рассказывайте идею — обсуждаем дизайн, вкус, размер и дату.</p>
+    <div class="fade-in delay-1">
+      <div class="map-box">
+        <iframe
+          src="https://yandex.ru/map-widget/v1/?ll=35.485700%2C56.940256&z=16&pt=35.485700%2C56.940256~pmwtm1~с.+Медное%2C+ул.+МСШИ+д.1"
+          width="100%" height="340"
+          frameborder="0" allowfullscreen
+          title="Карта — с. Медное, ул. МСШИ д.1">
+        </iframe>
+        <div class="map-address">
+          <strong>📍 Самовывоз: с. Медное, ул. МСШИ</strong>
+          Время самовывоза — по договорённости. Напишите в Telegram, согласуем удобное время!
+        </div>
+      </div>
     </div>
-    <div class="process-step fade-in delay-1" data-num="02">
-      <h3>Расчёт стоимости</h3>
-      <p>Рассчитываю цену исходя из сложности и объёма. Согласовываем всё детально и закрепляем заказ авансом.</p>
-    </div>
-    <div class="process-step fade-in" data-num="03">
-      <h3>Создание с душой</h3>
-      <p>Творю вашу сладкую мечту — только свежие натуральные продукты, только ручная работа, без спешки.</p>
-    </div>
-    <div class="process-step fade-in delay-1" data-num="04">
-      <h3>Доставка или самовывоз</h3>
-      <p>Привожу в Тверь или вы забираете в Медном. Торт приедет в идеальном виде — гарантирую!</p>
-    </div>
-  </div>
-</section>
+  </section>
 
 
-<!-- ════ CONTACT ════ -->
-<section class="contact" id="contact">
-  <div class="contact-info fade-in">
-    <span class="section-tag">Контакты</span>
-    <h2 class="section-title">Заказать <em>десерт</em></h2>
-    <p>Напишите в любой удобный мессенджер или оставьте заявку — отвечаю быстро и с удовольствием обсужу ваш заказ!</p>
-    <div class="social-links">
-      <a class="social-link" href="https://t.me/angela_467" target="_blank">
-        <span class="s-icon tg">✈️</span>
-        Telegram личный: @angela_467
-      </a>
-      <a class="social-link" href="https://t.me/nastini_slasti1" target="_blank">
-        <span class="s-icon tg">📢</span>
-        Канал: Настины Сласти
-      </a>
-      <a class="social-link" href="https://vk.ru/club228348648" target="_blank">
-        <span class="s-icon vk">В</span>
-        ВКонтакте: группа
-      </a>
-      <a class="social-link" href="https://vk.ru/multifruit39" target="_blank">
-        <span class="s-icon vk">В</span>
-        ВКонтакте: страница
-      </a>
-      <a class="social-link" href="https://max.ru/join/tYUerW4yzw7YbxgjsnGSfzo7k5xeLrU2LHqFrw_03ro" target="_blank">
-        <span class="s-icon max">★</span>
-        MAX: Настины Сласти
-      </a>
-      <a class="social-link" href="tel:+79051253019">
-        <span class="s-icon ph">📞</span>
-        +7 905 125-30-19
-      </a>
+  <!-- ════ PROCESS ════ -->
+  <section class="process" id="process">
+    <div class="fade-in">
+      <span class="section-tag">Как мы работаем</span>
+      <h2 class="section-title">От <em>идеи</em> до стола</h2>
     </div>
-  </div>
+    <div class="process-steps">
+      <div class="process-step fade-in" data-num="01">
+        <h3>Обсуждение</h3>
+        <p>Пишите в Telegram, ВКонтакте или MAX. Рассказывайте идею — обсуждаем дизайн, вкус, размер и дату.</p>
+      </div>
+      <div class="process-step fade-in delay-1" data-num="02">
+        <h3>Расчёт стоимости</h3>
+        <p>Рассчитываю цену исходя из сложности и объёма. Согласовываем всё детально и закрепляем заказ авансом.</p>
+      </div>
+      <div class="process-step fade-in" data-num="03">
+        <h3>Создание с душой</h3>
+        <p>Творю вашу сладкую мечту — только свежие натуральные продукты, только ручная работа, без спешки.</p>
+      </div>
+      <div class="process-step fade-in delay-1" data-num="04">
+        <h3>Доставка или самовывоз</h3>
+        <p>Привожу в Тверь или вы забираете в Медном. Торт приедет в идеальном виде — гарантирую!</p>
+      </div>
+    </div>
+  </section>
 
-  <!-- ORDER FORM -->
-  <div class="order-form-box fade-in delay-1">
-    <h3>Оставить заявку</h3>
-    <p class="form-subtitle">Заполните форму — свяжусь с вами и обсудим все детали 🎂</p>
 
-    <div class="form-row">
+  <!-- ════ CONTACT ════ -->
+  <section class="contact" id="contact">
+    <div class="contact-info fade-in">
+      <span class="section-tag">Контакты</span>
+      <h2 class="section-title">Заказать <em>десерт</em></h2>
+      <p>Напишите в любой удобный мессенджер или оставьте заявку — отвечаю быстро и с удовольствием обсужу ваш заказ!
+      </p>
+      <div class="social-links">
+        <a class="social-link" href="https://t.me/angela_467" target="_blank">
+          <span class="s-icon tg">✈️</span>
+          Telegram личный: @angela_467
+        </a>
+        <a class="social-link" href="https://t.me/nastini_slasti1" target="_blank">
+          <span class="s-icon tg">📢</span>
+          Канал: Настины Сласти
+        </a>
+        <a class="social-link" href="https://vk.ru/club228348648" target="_blank">
+          <span class="s-icon vk">В</span>
+          ВКонтакте: группа
+        </a>
+        <a class="social-link" href="https://vk.ru/multifruit39" target="_blank">
+          <span class="s-icon vk">В</span>
+          ВКонтакте: страница
+        </a>
+        <a class="social-link" href="https://max.ru/join/tYUerW4yzw7YbxgjsnGSfzo7k5xeLrU2LHqFrw_03ro" target="_blank">
+          <span class="s-icon max">★</span>
+          MAX: Настины Сласти
+        </a>
+        <a class="social-link" href="tel:+79051253019">
+          <span class="s-icon ph">📞</span>
+          +7 905 125-30-19
+        </a>
+      </div>
+    </div>
+
+    <!-- ORDER FORM -->
+    <div class="order-form-box fade-in delay-1">
+      <h3>Оставить заявку</h3>
+      <p class="form-subtitle">Заполните форму — свяжусь с вами и обсудим все детали 🎂</p>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label for="f-name">Ваше имя *</label>
+          <input id="f-name" type="text" placeholder="Как вас зовут?">
+        </div>
+        <div class="form-group">
+          <label for="f-contact">Телефон / Telegram *</label>
+          <input id="f-contact" type="text" placeholder="+7 000 … или @username">
+        </div>
+      </div>
+
       <div class="form-group">
-        <label for="f-name">Ваше имя *</label>
-        <input id="f-name" type="text" placeholder="Как вас зовут?">
+        <label>Что хотите заказать?</label>
+        <div class="dessert-chips">
+          <span class="chip">🎂 Торт</span>
+          <span class="chip">🧁 Капкейки</span>
+          <span class="chip">🍓 Клубника в шоколаде</span>
+          <span class="chip">🍡 Моти</span>
+          <span class="chip">🍞 Сырки</span>
+          <span class="chip">🥔 Пирожное «Картошка»</span>
+          <span class="chip">🍮 Пирожные</span>
+          <span class="chip">✨ Своя идея</span>
+        </div>
       </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label for="f-date">Нужна к дате</label>
+          <input id="f-date" type="date">
+        </div>
+        <div class="form-group">
+          <label for="f-persons">Количество порций</label>
+          <input id="f-persons" type="number" placeholder="например, 12" min="1">
+        </div>
+      </div>
+
       <div class="form-group">
-        <label for="f-contact">Телефон / Telegram *</label>
-        <input id="f-contact" type="text" placeholder="+7 000 … или @username">
+        <label for="f-city">Способ получения</label>
+        <select id="f-city">
+          <option value="">Выберите...</option>
+          <option value="tver">🚗 Доставка по Твери</option>
+          <option value="mednoye">🚗 Доставка по с. Медное</option>
+          <option value="mednoye">🏡 Самовывоз — с. Медное</option>
+          <option value="other">💬 Обсудим отдельно</option>
+        </select>
       </div>
-    </div>
 
-    <div class="form-group">
-      <label>Что хотите заказать?</label>
-      <div class="dessert-chips">
-        <span class="chip">🎂 Торт</span>
-        <span class="chip">🧁 Капкейки</span>
-        <span class="chip">🍓 Клубника в шоколаде</span>
-        <span class="chip">🍡 Моти</span>
-        <span class="chip">🍞 Сырки</span>
-        <span class="chip">🥔 Пирожное «Картошка»</span>
-        <span class="chip">🍮 Пирожные</span>
-        <span class="chip">✨ Своя идея</span>
-      </div>
-    </div>
-
-    <div class="form-row">
       <div class="form-group">
-        <label for="f-date">Нужна к дате</label>
-        <input id="f-date" type="date">
+        <label for="f-message">Пожелания по вкусу / дизайну</label>
+        <textarea id="f-message"
+          placeholder="Расскажите о своей идее — цвета, начинки, надписи, особые пожелания..."></textarea>
       </div>
-      <div class="form-group">
-        <label for="f-persons">Количество порций</label>
-        <input id="f-persons" type="number" placeholder="например, 12" min="1">
-      </div>
+
+      <button class="form-submit" id="form-submit-btn">Отправить заявку →</button>
     </div>
+  </section>
 
-    <div class="form-group">
-      <label for="f-city">Способ получения</label>
-      <select id="f-city">
-        <option value="">Выберите...</option>
-        <option value="tver">🚗 Доставка по Твери</option>
-        <option value="mednoye">🚗 Доставка по с. Медное</option>
-        <option value="mednoye">🏡 Самовывоз — с. Медное</option>
-        <option value="other">💬 Обсудим отдельно</option>
-      </select>
+
+  <!-- ════ FOOTER ════ -->
+  <footer>
+    <div class="footer-logo">Настины <span>Сласти</span></div>
+    <span>Авторские десерты от Анастасии Кудрявцевой · Тверь &amp; Медное 🍰</span>
+    <div class="footer-links">
+      <a href="https://t.me/nastini_slasti1" target="_blank">Telegram</a>
+      <a href="https://vk.ru/club228348648" target="_blank">ВКонтакте</a>
+      <a href="tel:+79051253019">+7 905 125-30-19</a>
     </div>
-
-    <div class="form-group">
-      <label for="f-message">Пожелания по вкусу / дизайну</label>
-      <textarea id="f-message" placeholder="Расскажите о своей идее — цвета, начинки, надписи, особые пожелания..."></textarea>
-    </div>
-
-    <button class="form-submit" id="form-submit-btn">Отправить заявку →</button>
-  </div>
-</section>
+  </footer>
 
 
-<!-- ════ FOOTER ════ -->
-<footer>
-  <div class="footer-logo">Настины <span>Сласти</span></div>
-  <span>Авторские десерты от Анастасии · Тверь &amp; Медное 🍰</span>
-  <div class="footer-links">
-    <a href="https://t.me/nastini_slasti1" target="_blank">Telegram</a>
-    <a href="https://vk.ru/club228348648" target="_blank">ВКонтакте</a>
-    <a href="tel:+79051253019">+7 905 125-30-19</a>
-  </div>
-</footer>
-
-
-<!-- scripts -->
-<script src="images.js"></script>
-<script src="main.js"></script>
+  <!-- scripts -->
+  <script src="images.js"></script>
+  <script src="main.js"></script>
 </body>
+
 </html>
